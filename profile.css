@@ -1,0 +1,66 @@
+* {
+    background-color: #F5F5F5;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 50px;
+}
+#company-logo, #bell-icon{
+    padding: 2px;
+    margin: 5px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nav-left, #nav-right{
+    display: flex;
+    flex-direction: row;
+}
+
+#profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+
+#bottom-1, #bottom-2, #bottom-3, #bottom-4{
+    font-family: 'iPoppins';
+    font-style: italic;
+}
+
+
+#myPhoto{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    font-family: 'Poppins';
+    align-content: center;
+}
+
+#name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+@font-face{
+    font-family:'Poppins';
+    src:url('D:\VSCode\PP\Poppins-Thin.ttf')
+}
+
+@font-face{
+    font-family:'iPoppins';
+    src:url('D:\VSCode\PP\Poppins-BoldItalic.ttf')
+}
+
+
+
